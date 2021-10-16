@@ -11,6 +11,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 
 
@@ -31,7 +32,8 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatDividerModule,
     MatButtonModule,
     MatGridListModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
